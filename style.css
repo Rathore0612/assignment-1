@@ -1,0 +1,46 @@
+
+
+.headerContainer {
+    display: flex;
+        background-color:#FFCD9E;
+}
+
+.left {
+  height: 500px;
+  width: 1000px;
+  text-align: center;
+  border: 0px solid;
+  button align-items: position: position: display: button ;;;
+  button color: black;
+}
+.right {
+    /* Vector */
+    height: 500px;
+    width: 500px;
+    text-align: center;
+    border: 0px solid;
+    image-rendering: auto;
+}
+.form{
+    display:flex;
+}
+
+.footerContainer {
+    display: flex;
+}
+.ftleft {
+  height: 200px;
+  width: 400px;
+  border: px solid;
+  text-decoration-style: ;
+  text-align: center;
+  color: #ffffff;
+  background-color: #100F0D;
+}
+.ftright {
+  height: 200px;
+  width: 400px;
+  text-align: center;
+  color:#FFFFFF ;
+  background-color: #100F0D;
+}
