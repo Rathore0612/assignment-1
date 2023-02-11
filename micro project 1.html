@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width= device-width, initial-scale=1">
+<style>
+div.header{
+    position: absolute;
+width: 1728px;
+height: 127px;
+left: 0px;
+top: 0px;
+
+background: #6F6AF7;
+}
+.logo {
+    position: absolute;
+width: 215px;
+height: 63px;
+left: 44px;
+top: 27px;
+
+font-family: 'Delius Unicase';
+font-style: normal;
+font-weight: 700;
+font-size: 61.43px;
+line-height: 79px;
+
+color: #FFFFFF;
+}
+.home{
+    position: absolute;
+width: 102px;
+height: 33px;
+left: 412px;
+top: 42px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 36.43px;
+line-height: 47px;
+
+color: #FFFFFF;
+}
+.aboutus{
+    position: absolute;
+width: 157px;
+height: 36px;
+left: 561px;
+top: 41px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 36.43px;
+line-height: 47px;
+
+color: #FFFFFF;
+}
+.information{
+    position: absolute;
+width: 199px;
+height: 36px;
+left: 764px;
+top: 41px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 36.43px;
+line-height: 47px;
+
+color: #FFFFFF;
+}
+.more{
+    position: absolute;
+width: 89px;
+height: 36px;
+left: 1009px;
+top: 41px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 36.43px;
+line-height: 47px;
+
+color: #FFFFFF;
+
+}
+.search{
+    
+position: absolute;
+width: 314px;
+height: 57px;
+left: 1171px;
+top: 36px;
+
+background: #FFFFFF;
+color: black;
+border-radius: 63px;
+}
+
+.bar{
+    position: absolute;
+left: 93.06%;
+right: 3.07%;
+top: 1.87%;
+bottom: 95.88%;
+
+background: #FFFFFF;
+}
+
+img.text{
+    position: absolute;
+width: 456px;
+height: 507px;
+left: 129px;
+top: 289px;
+
+background: url(https://burst.shopifycdn.com/photos/laptop-from-above.jpg?width=1200&format=pjpg&exif=1&iptc=1);
+border-radius: 20px;
+}
+textarea{
+    position: absolute;
+width: 972px;
+height: 507px;
+left: 634px;
+top: 289px;
+font-size: large;
+
+background: #E5D8FF;
+border: 6px solid #FFFFFF;
+box-shadow: inset 3px 5px 27px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+}
+.one{
+    position: absolute;
+width: 337px;
+height: 145.48px;
+left: 101px;
+top: 933px;
+
+background: #929DFF;
+box-shadow: 0px 9px 31px rgba(0, 0, 0, 0.4);
+border-radius: 11px;
+}
+.two{
+    position: absolute;
+width: 337px;
+height: 145.48px;
+left: 497px;
+top: 933px;
+
+background: #734CF2;
+box-shadow: 0px 9px 31px rgba(0, 0, 0, 0.4);
+border-radius: 11px;
+}
+.three{
+    position: absolute;
+width: 337px;
+height: 145px;
+left: 893px;
+top: 933px;
+
+background: #D288FF;
+box-shadow: 0px 9px 31px rgba(0, 0, 0, 0.4);
+border-radius: 11px;
+}
+.four{
+    position: absolute;
+width: 337px;
+height: 145.48px;
+left: 1289px;
+top: 933px;
+
+background: #000000;
+box-shadow: 0px 9px 31px rgba(0, 0, 0, 0.4);
+border-radius: 11px;
+}
+div.fourt{
+    position: absolute;
+width: 1542px;
+height: 717px;
+left: 101px;
+top: 1267px;
+
+background: #483EFF;
+border-radius: 21px;
+
+}
+a.yourinfo{
+    position: absolute;;
+width: 397px;
+height: 133px;
+left: 153px;
+top: 1340px;
+
+background: #BCE0F6;
+box-shadow: 0px 6px 35px rgba(0, 0, 0, 0.30);
+border-radius: 22px;
+}
+a.bookmark{
+    box-sizing: border-box;
+position: absolute;
+width: 397px;
+height: 133px;
+left: 153px;
+top: 1555px;
+
+border: 5px solid #FFFFFF;
+border-radius: 22px;
+}
+a.settings{
+    position: absolute;
+width: 397px;
+height: 133px;
+left: 153px;
+top: 1770px;
+
+border: 5px solid #FFFFFF;
+border-radius: 22px;
+}
+div.inside{
+    
+position: absolute;
+width: 1004px;
+height: 656px;
+left: 612px;
+top: 1298px;
+
+background: #FFFFFF;
+border-radius: 19px;
+}
+a.button{
+    position: absolute;
+width: 207px;
+height: 78px;
+left: calc(50% - 207px/2 + 595.5px);
+top: 1840px;
+color: #FFFFFF;
+
+background: #000000;
+border-radius: 9px;
+}
+.tespan{
+    position: absolute;
+width: 922px;
+height: 83px;
+left: 668px;
+top: 318px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 29px;
+line-height: 178.7%;
+color: #6F7373;
+
+}
+.toque{
+    position: absolute;
+width: 244px;
+height: 36px;
+left: 129px;
+top: 953px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 29px;
+line-height: 178.7%;
+
+letter-spacing: 0.04em;
+
+color: #FFFFFF;
+}
+.toquepr{
+    position: absolute;
+width: 142px;
+height: 35px;
+left: 129px;
+top: 1011px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 178.7%;
+
+letter-spacing: 0.04em;
+
+color: #FFFFFF;
+}
+.toans{
+    position: absolute;
+width: 237px;
+height: 36px;
+left: 524px;
+top: 953px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 29px;
+line-height: 178.7%;
+
+letter-spacing: 0.04em;
+
+color: #FFFFFF;
+}
+.toanspr{
+    position: absolute;
+width: 142px;
+height: 35px;
+left: 524px;
+top: 1011px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 178.7%;
+/* or 50px */
+
+letter-spacing: 0.04em;
+
+color: #FFFFFF;
+}
+.topar{
+    position: absolute;
+width: 237px;
+height: 36px;
+left: 920px;
+top: 953px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 29px;
+line-height: 178.7%;
+/* or 52px */
+
+letter-spacing: 0.04em;
+
+color: #FFFFFF;
+
+}
+.toparpr{
+    
+position: absolute;
+width: 142px;
+height: 35px;
+left: 920px;
+top: 1011px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 178.7%;
+/* or 50px */
+
+letter-spacing: 0.04em;
+
+color: #FFFFFF;
+}
+.topas{
+    position: absolute;
+width: 237px;
+height: 36px;
+left: 1316px;
+top: 953px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 29px;
+line-height: 178.7%;
+
+letter-spacing: 0.04em;
+
+color: #FFFFFF;
+}
+.topaspr{
+    position: absolute;
+width: 142px;
+height: 35px;
+left: 1316px;
+top: 1011px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 178.7%;
+/* or 50px */
+
+letter-spacing: 0.04em;
+
+color: #FFFFFF;
+
+}
+.customer{
+    position: absolute;
+width: 120px;
+height: 120px;
+left: 1490px;
+top: 1008px;
+
+background: #FFFFFF;
+box-shadow: 4px 15px 35px rgba(0, 0, 0, 0.25);
+}
+.customer2{
+    position: absolute;
+width: 80px;
+height: 78.13px;
+left: 1510px;
+top: 1029px;
+
+background: #000000;
+
+}
+.insil1{
+    position: absolute;
+width: 370px;
+height: 36px;
+left: 666px;
+top: 1370px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 38px;
+line-height: 46px;
+letter-spacing: 0.105em;
+
+color: #04285A;
+
+}
+.insil2{
+    position: absolute;
+width: 85px;
+height: 26px;
+left: 696px;
+top: 1463px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 33px;
+letter-spacing: 0.105em;
+
+color: #04285A;
+}
+.insil3{
+    position: absolute;
+width: 11px;
+height: 19px;
+left: 810px;
+top: 1470px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 78.69%;
+
+letter-spacing: 0.105em;
+
+color: #04285A;
+}
+.insil4{
+    position: absolute;
+width: 153px;
+height: 22px;
+left: 846px;
+top: 1467px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+letter-spacing: 0.05em;
+
+color: #143565;
+
+}
+.insil5{
+    position: absolute;
+width: 88px;
+height: 26px;
+left: 696px;
+top: 1526px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 33px;
+letter-spacing: 0.105em;
+
+color: #04285A;
+
+
+}
+.insil6{
+    position: absolute;
+width: 11px;
+height: 23px;
+left: 810px;
+top: 1531px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 78.69%;
+
+letter-spacing: 0.105em;
+
+color: #04285A;
+}
+.insil7{
+    position: absolute;
+width: 216px;
+height: 22px;
+left: 843px;
+top: 1530px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+letter-spacing: 0.05em;
+
+color: #143565;
+}
+.insil8{
+    position: absolute;
+width: 99px;
+height: 26px;
+left: 696px;
+top: 1591px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 33px;
+letter-spacing: 0.105em;
+
+color: #04285A;
+}
+.insil9{
+    position: absolute;
+width: 11px;
+height: 23px;
+left: 810px;
+top: 1596px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 78.69%;
+
+letter-spacing: 0.105em;
+
+color: #04285A;
+   
+}
+.insil10{
+    position: absolute;
+width: 216px;
+height: 22px;
+left: 846px;
+top: 1595px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+letter-spacing: 0.05em;
+
+color: #143565;
+
+}
+
+.insil11{
+    position: absolute;
+width: 99px;
+height: 26px;
+left: 696px;
+top: 1656px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 33px;
+letter-spacing: 0.105em;
+
+color: #04285A;
+}
+.insil12{
+    position: absolute;
+width: 11px;
+height: 23px;
+left: 810px;
+top: 1661px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 78.69%;
+/* or 20px */
+
+letter-spacing: 0.105em;
+
+color: #04285A;
+}
+.insil13{
+    position: absolute;
+width: 90px;
+height: 22px;
+left: 846px;
+top: 1660px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+letter-spacing: 0.05em;
+
+color: #143565;
+
+}
+
+.insil14{
+    position: absolute;
+width: 67px;
+height: 28px;
+left: 1397px;
+top: 1862px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 35px;
+letter-spacing: 0.05em;
+
+color: #FFFFFF;
+}
+
+.hey1{
+    position: absolute;
+width: 196px;
+height: 43px;
+left: 249px;
+top: 1378px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 178.7%;
+
+
+letter-spacing: 0.04em;
+
+color: #000000;
+
+}
+
+.hey2{
+    position: absolute;
+width: 234px;
+height: 43px;
+left: 234px;
+top: 1591px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 178.7%;
+
+
+letter-spacing: 0.04em;
+
+color: #FFFFFF;
+}
+
+.hey3{
+    position: absolute;
+width: 176px;
+height: 43px;
+left: 263px;
+top: 1806px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 178.7%;
+
+
+letter-spacing: 0.04em;
+
+color: #FFFFFF;
+}
+
+</style>
+</head>
+<body>
+
+<div class="header" >
+  <a class="logo"> Dappr</a>
+  <a class="home">Home</a>
+  <a class="aboutus">About Us</a>
+  <a class="information" >Information</a>
+  <a class="more" >More</a>
+  <input class="search" type="text" placeholder="search..">
+  <a class="bar">&#8801;</a>
+</div>
+
+<div class="second">
+<img src="" class="text">
+<textarea></textarea>
+<a class="tespan">It's not only writers who can benefit from this free online tool. If you're a programmer who's working on a</a>
+</div>
+
+<div class="third">
+    <p class="one"> </p>
+    <p class="two"> </p>
+    <p class="three"> </p>
+    <p class="four">  </p>
+    <a class="toque">Total Question’s</a><a class="toquepr">200,000</a>
+    <a class="toans">Total Answer’s</a><a class="toanspr">105,000</a>
+    <a class="topar">Participated</a><a class="toparpr">10,000</a>
+    <a class="topas">Total Passed</a><a class="topaspr">6,000</a>
+
+    <a class="customer"></a>
+    <a class="customer2"></a>
+
+    <img src="">
+</div>
+
+<div class="fourt">
+    </div>
+    <div class="inside">
+        <p class="insi1"></p>
+       
+        <p class="insi2"> </p>
+        <p class="insi3">  </p>
+        <p class="insi4">  </p>
+        <p class="insi5"> </p>
+
+    </div>
+    <a class="yourinfo"></a>
+    <a class="bookmark"></a>
+    <a class="settings"></a>
+    <a class="button">next -> </a>
+
+    <a class="insil1">Your information</a>
+    <a class="insil2">Name</a>
+    <a class="insil3">:</a>
+    <a class="insil4"> Deepak Rathore</a>
+    <a class="insil5">Email</a>
+    <a class="insil6">:</a>
+    <a class="insil7">itsdeepsa9829@gmail.com</a>
+    <a class="insil8">Phone</a>
+    <a class="insil9">:</a>
+    <a class="insil10">+91 9079637700</a>
+    <a class="insil11">Marks</a>
+    <a class="insil12">: </a>
+    <a class="insil13">500.00</a>
+    <a class="insil14">next --></a>
+
+    <a class="hey1">YOUR INFO</a>
+    <a class="hey2">BOOKMARKS</a>
+    <a class="hey3">SETTINGS</a>
+
+</body>
+</html>
